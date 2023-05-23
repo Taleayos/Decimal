@@ -5,13 +5,13 @@ Implementation of decimal.h library in the C programming language. This library 
 
 ### Arithmetic Operators
 
-| Operator name | Operators  | Function                                                                           | 
-| ------ | ------ |------------------------------------------------------------------------------------|
-| Addition | + | int s21_add(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)         |
-| Subtraction | - | int s21_sub(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) |
-| Multiplication | * | int s21_mul(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) | 
-| Division | / | int s21_div(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) |
-| Modulo | Mod | int s21_mod(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) |
+| Operator name | Operators  |
+| ------ | ------ |
+| Addition | + |
+| Subtraction | - |
+| Multiplication | * |
+| Division | / |
+| Modulo | Mod |
 
 The functions return the error code:
 - 0 - OK
