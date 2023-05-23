@@ -1,6 +1,16 @@
 # Decimal 
 Implementation of decimal.h library in the C programming language. This library add the ability to work with the "decimal" type, which is not in the language standard.
 
+## Task 1. Implementation of the decimal.h library functions
+
+The functions of the decimal.h library described [above](#information) must be implemented:
+- The library must be developed in C language of C11 standard using gcc compiler
+- Make it as a static library (with the s21_decimal.h header file)
+- Prepare full coverage of library functions code with unit-tests using the Check library
+- Unit tests must cover at least 80% of each function (checked using gcov)    
+- The gcov_report target should generate a gcov report in the form of an html page. Unit tests must be run with gcov flags to do this
+- The defined type must support numbers from -79,228,162,514,264,337,593,543,950,335 to +79,228,162,514,264,337,593,543,950,335.
+
 ## Information
 
 ### Arithmetic Operators
@@ -63,13 +73,3 @@ Return value - code error:
 Return value - code error:
 - 0 - OK
 - 1 - calculation error
-
-## Task 1. Implementation of the decimal.h library functions
-
-The functions of the decimal.h library described [above](#information) must be implemented:
-- The library must be developed in C language of C11 standard using gcc compiler
-- Make it as a static library (with the s21_decimal.h header file)
-- Prepare full coverage of library functions code with unit-tests using the Check library
-- Unit tests must cover at least 80% of each function (checked using gcov)    
-- The gcov_report target should generate a gcov report in the form of an html page. Unit tests must be run with gcov flags to do this
-- The defined type must support numbers from -79,228,162,514,264,337,593,543,950,335 to +79,228,162,514,264,337,593,543,950,335.
